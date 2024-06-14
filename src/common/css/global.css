@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input {
+    outline: none;
+    border-style: solid;
+}
+
+/*弹出框样式*/
+.message {
+    width: 200px;
+    height: 60px;
+    position: fixed;
+    left: 50%;
+    top: 10%;
+    transform: translate(-100px, -30px);
+    background-color: rgb(255, 82, 82);
+    color: white;
+    border-radius: 10px;
+    line-height: 60px;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}
